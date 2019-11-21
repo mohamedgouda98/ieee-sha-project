@@ -4,5 +4,15 @@
 // Variables
 @import 'variables';
 
+
+// Main Style
+
+@import 'main.scss';
+
+
+// Home Style
+@import 'home-style/home.scss';
+
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
