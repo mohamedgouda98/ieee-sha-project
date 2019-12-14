@@ -12,3 +12,6 @@
 */
 
 Route::get('/', 'HomeController@home');
+Route::get('/regstrtion' , 'regesterController@start');
+Route::get('/vertify' , 'regesterController@vertify');
+
