@@ -11,7 +11,16 @@
 |
 */
 
+<<<<<<< HEAD
 Route::get('/', 'HomeController@home');
 Route::get('/regstrtion' , 'regesterController@start');
 Route::get('/vertify' , 'regesterController@vertify');
 
+=======
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+
+Route::get('/', 'HomeController@home');
+>>>>>>> ieee-sha-project/samy
