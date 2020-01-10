@@ -6,12 +6,8 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-<<<<<<< HEAD
-    public function home(){
-=======
-    public function  home(){
 
->>>>>>> ieee-sha-project/samy
+    public function  home(){
         return view('home.index');
     }
 }
