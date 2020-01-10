@@ -11,16 +11,16 @@
 |
 */
 
-<<<<<<< HEAD
 Route::get('/', 'HomeController@home');
 Route::get('/regstrtion' , 'regesterController@start');
 Route::get('/vertify' , 'regesterController@vertify');
 
-=======
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+ Route::get('/', function () {
+     return view('emails');
+ });
 
 
-Route::get('/', 'HomeController@home');
->>>>>>> ieee-sha-project/samy
+Route::get('/email' , 'EmailController@create')->name('create');
+Route::post('/store_mail' , 'EmailController@store')->name('store');
+
+Route::get('/emails_data' , 'EmailController@emails_data');

@@ -17,7 +17,8 @@
        
     </head>
     <body>
-     
+        @include('layouts.msg')
+
         @yield('content')
 
         <script src="{{asset('js/app.js')}}"></script>
