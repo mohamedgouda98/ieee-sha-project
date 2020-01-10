@@ -1,0 +1,49 @@
+
+.shape{
+    width: 3px;
+    height: 20px;
+    background-color: #0395e2;
+    position: relative;
+    top: 30px;
+}
+legend{
+    margin-left: 15px;
+    font-weight: bold;;
+}
+.info {
+    width: 700px;
+    height: 35px;
+    border: solid #c3c3c3;
+    border-width: thin;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+label{
+    margin-left: 10px;
+}
+.row input{
+    margin-right: 10px;
+}
+.row .right{
+   padding: 0 30px;
+   
+}
+.row .left{
+    padding-left: 20px;
+
+}
+textarea{
+    border-radius: 10px;
+    border: solid #c3c3c3;
+    border-width: thin;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #0395e2;
+    margin: 7px;
+}
